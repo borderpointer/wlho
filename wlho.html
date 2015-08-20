@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="William Lescaze House and Office">
+  <meta name="author" content="Elli Park, Pratt '14">
+  <title>William Lescaze House and Office</title>
+  <link rel="shortcut icon" href="favicon.gif" type="image"/>
+
+  <!-- jQuery / jQuery UI -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+
+  <!-- jQuery -->
+  <script src="jquery.shapeshift.js"></script>
+  <script type="text/javascript" src="simple.carousel.js"></script>
+
+  <!-- CSS -->
+  <style>
+    .container {
+      width:100%;
+      position: relative;
+    }
+
+    .container > div {
+      background: #fff;
+      position: absolute;
+      width: 200px;
+      display: block;
+    }
+
+	.container > div [data-ss-colspan="2"] {width: 410px;}
+	.container > div [data-ss-colspan="3"] {width: 620px;}
+
+
+  .container ul {
+    list-style: none;
+    padding-right: 5px;
+  }
+  </style>
+
+  <!-- Javascript -->
+  <script>
+    $(document).ready(function() {
+      $(".container").shapeshift({
+        minColumns : 3,
+        gutterX : 50,
+        gutterY : 50,
+        paddingX : 100,
+        paddingY : 100,
+        minHeight: 200
+      });
+      setInterval(shuffle, 200000);
+      })
+
+    function shuffle() {  
+      $(".container").trigger('ss-shuffle');
+    }
+  </script>
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel").simplecarousel({
+        slidespeed: 800,
+        auto: 2000,
+        width: 410 ,
+        height: 280
+      });
+    });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel2").simplecarousel({
+        slidespeed: 1000,
+        auto: 3000,
+        width: 350 ,
+        height: 290,
+        vertical : true
+    });
+  });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel3").simplecarousel({
+        slidespeed: 700,
+        auto: 1500,
+        width: 450 ,
+        height: 280
+    });
+  });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel4").simplecarousel({
+        slidespeed: 700,
+        auto: 2500,
+        width: 370 ,
+        height: 289,
+        vertical: true
+    });
+  });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel5").simplecarousel({
+        slidespeed: 1000,
+        auto: 2500,
+        width: 350 ,
+        height: 250,
+        vertical: true
+    });
+  });
+  </script> 
+
+</head>
+
+<body>
+
+  <div class="container">
+
+      <div>
+        <img src="W.png">
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "L_about.jpg">
+      </div>
+
+      <div>
+        <img src ="H.png">
+      </div>
+
+      <div>
+        <img src ="L.png">
+      </div>
+
+      <div>
+        <img src ="O.png">
+      </div>
+
+      <img src = "gif_1.gif" style = "position:absolute; left: 30px; top: 500px;">
+      
+
+      <div data-ss-colspan="2">
+
+       <ul id="carousel" style = "left: 100px; top: 500px;">
+         <li><img src="carousal_1.jpg"></li>
+         <li><img src="carousal_2.jpg"></li>
+         <li><img src="carousal_3.jpg"></li>
+         <li><img src="carousal_4.jpg"></li>
+         <li><img src="carousal_5.jpg"></li>
+         <li><img src="carousal_6.jpg"></li>
+         <li><img src="carousal_7.jpg"></li>
+       </ul>
+
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "W_about.jpg">
+      </div>
+
+      <div data-ss-colspan="2">
+
+       <ul id="carousel2">
+         <li><img src="carousal2_1.jpg"></li>
+         <li><img src="carousal2_2.jpg"></li>
+         <li><img src="carousal2_3.jpg"></li>
+         <li><img src="carousal2_4.jpg"></li>
+       </ul>
+        
+      </div>
+
+      <div data-ss-colspan="2">
+
+       <ul id="carousel3">
+         <li><img src="carousal3_1.jpg"></li>
+         <li><img src="carousal3_2.jpg"></li>
+         <li><img src="carousal3_3.jpg"></li>
+         <li><img src="carousal3_4.jpg"></li>
+         <li><img src="carousal3_5.jpg"></li>
+         <li><img src="carousal3_7.jpg"></li>
+       </ul>
+
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "quote_2.jpg">
+      </div>
+
+      <div data-ss-colspan="2">
+
+        <ul id="carousel5">
+         <li><img src="carousal5_1.jpg"></li>
+         <li><img src="carousal5_2.jpg"></li>
+         <li><img src="carousal5_3.jpg"></li>
+         <li><img src="carousal5_4.jpg"></li>
+         <li><img src="carousal5_5.jpg"></li>
+         <li><img src="carousal5_6.jpg"></li>
+         <li><img src="carousal5_7.jpg"></li>
+       </ul>
+
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "gif_3.gif">
+      </div>
+
+      <div data-ss-colspan="3">
+        <div class="grow pic">
+           <link rel="stylesheet" href="zoom.css" />
+            <img src="zoom1.jpg">
+        </div>
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "H_about.jpg">
+      </div>
+
+      <div data-ss-colspan="2">
+
+        <ul id="carousel4">
+         <li><img src="carousal4_1.jpg"></li>
+         <li><img src="carousal4_2.jpg"></li>
+       </ul>
+
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "quote_1.jpg">
+      </div>
+
+      <div data-ss-colspan="3">
+        <img src = "quote_3.jpg">
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

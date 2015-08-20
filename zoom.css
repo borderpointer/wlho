@@ -1,0 +1,16 @@
+/*GROW*/
+.grow img {
+  height: 566px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 636px;
+  height: 1200px;
+}

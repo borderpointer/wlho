@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<meta name="description" content="William Lescaze House and Office">
+    	<meta name="author" content="Elli Park, Pratt '14">
+    	<link rel="shortcut icon" href="favicon.gif">
+
+		<title> William Lescaze House and Office </title>
+		<link rel="stylesheet" type="text/css" href="wlho_draggable.css">
+
+		<script type="text/javascript" src="jquery.min.js"></script>
+  		<script type="text/javascript" src="jquery-ui.min.js"></script>
+  		<script src="jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="simple.carousel.js"></script>
+
+   <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel").simplecarousel({
+        slidespeed: 800,
+        auto: 2000,
+        width: 410 ,
+        height: 280
+      });
+    });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel2").simplecarousel({
+        slidespeed: 1000,
+        auto: 3000,
+        width: 350 ,
+        height: 290,
+        vertical : true
+    });
+  });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel3").simplecarousel({
+        slidespeed: 700,
+        auto: 1500,
+        width: 450 ,
+        height: 280
+    });
+  });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel4").simplecarousel({
+        slidespeed: 700,
+        auto: 2500,
+        width: 370 ,
+        height: 289,
+        vertical: true
+    });
+  });
+  </script> 
+
+  <script type="text/javascript"> 
+    jQuery(document).ready(function() {
+    // initialize carousel
+    $("#carousel5").simplecarousel({
+        slidespeed: 1000,
+        auto: 2500,
+        width: 350 ,
+        height: 250,
+        vertical: true
+    });
+  });
+  </script> 
+
+
+	</head>
+
+	<body>
+		<div class = "logo">
+
+			<div id = "W">
+				<img src="W.png" width="80" height="80">
+			</div>
+
+			<div id = "L">
+				<img src = "L.png" width="80" height="80">
+			</div>
+
+			<div id = "H">
+				<img src = "H.png" width="80" height="80">
+			</div>
+
+			<div id = "O">
+				<img src = "O.png" width="80" height="80">
+			</div>
+
+		</div>
+
+		<div class = "images">
+
+			<div id = "carousal">
+				<ul id="carousel" style ="list-style-type: none;">
+        	 		<li><img src="carousal_1.jpg"></li>
+         			<li><img src="carousal_2.jpg"></li>
+         			<li><img src="carousal_3.jpg"></li>
+         			<li><img src="carousal_4.jpg"></li>
+         			<li><img src="carousal_5.jpg"></li>
+         			<li><img src="carousal_6.jpg"></li>
+         			<li><img src="carousal_7.jpg"></li>
+      			</ul>
+			</div>
+
+  			<script>
+   			   $("#carousal").draggable({
+        		appendTo: "body",
+        		drag : function() {
+        		}
+   				 });
+   			</script>
+
+			<div id = "carousal2">
+			     <ul id="carousel2" style ="list-style-type: none;">
+        		  	<li><img src="carousal2_1.jpg"></li>
+         			<li><img src="carousal2_2.jpg"></li>
+         			<li><img src="carousal2_3.jpg"></li>
+         			<li><img src="carousal2_4.jpg"></li>
+       			 </ul>
+			</div>
+
+  			<script>
+   			   $("#carousal2").draggable({
+        		appendTo: "body",
+        		drag : function() {
+        		}
+   				 });
+   			</script>
+
+			<div id = "carousal3">
+			     <ul id="carousel3" style ="list-style-type: none;">
+        			<li><img src="carousal3_1.jpg"></li>
+         			<li><img src="carousal3_2.jpg"></li>
+         			<li><img src="carousal3_3.jpg"></li>
+         			<li><img src="carousal3_4.jpg"></li>
+         			<li><img src="carousal3_5.jpg"></li>
+         		 	<li><img src="carousal3_7.jpg"></li>
+       			 </ul>
+			</div>
+
+  			<script>
+   			   $("#carousal3").draggable({
+        		appendTo: "body",
+        		drag : function() {
+        		}
+   				 });
+   			</script>
+
+			<div id = "carousal4">
+			     <ul id="carousel4" style ="list-style-type: none;">
+         			<li><img src="carousal4_1.jpg"></li>
+         			<li><img src="carousal4_2.jpg"></li>
+       			 </ul>
+			</div>
+
+  			<script>
+   			   $("#carousal4").draggable({
+        		appendTo: "body",
+        		drag : function() {
+        		}
+   				 });
+   			</script>
+
+			<div id = "carousal5">
+			     <ul id="carousel5" style ="list-style-type: none;">
+         			<li><img src="carousal5_1.jpg"></li>
+         			<li><img src="carousal5_2.jpg"></li>
+         			<li><img src="carousal5_3.jpg"></li>
+         			<li><img src="carousal5_4.jpg"></li>
+         			<li><img src="carousal5_5.jpg"></li>
+         			<li><img src="carousal5_6.jpg"></li>
+         			<li><img src="carousal5_7.jpg"></li>
+       			 </ul>
+			</div>
+
+  			<script>
+   			   $("#carousal5").draggable({
+        		appendTo: "body",
+        		drag : function() {
+        		}
+   				 });
+   			</script>
+
+			<div id = "gif1">
+				<img src = "gif_1.gif">
+			</div>
+
+			<script>
+			$('#gif1')
+   			.draggable()
+    		</script>
+
+			<div id = "gif2">
+				<img src = "gif_3.gif">
+			</div>
+
+			<script>
+			$('#gif2')
+   			.draggable()
+    		</script>
+
+			<div class ="grow" id ="zoom">
+           		<link rel="stylesheet" href="zoom.css" />
+            	<img src="zoom1.jpg">
+			</div>
+
+			<script>
+			$('#zoom')
+   			.draggable();
+    		</script>
+
+		</div>
+
+		<div class = "info">
+
+			<div id = "about1" >
+				<p> 
+				William Lescaze (1896-1969) was an American archit-<br>
+				ect originally from Switzerland. Highly influenced by<br>
+				Le Corbusier and the De Stiji movement, Lescaze was<br>
+				best known for his "International Style" architecture<br>
+				and for introducing the style to North America. With<br>
+				architect George Howe, they built the Philadelphia<br>
+				Savings Fund Society (PSFS) Buidling. Lescaze lived<br>
+				and worked in New York City, where he resided in his<br>
+				house and office in midtown from 1934 until his death.
+				</p>
+			</div>
+
+			<script>
+			$('#about1')
+   			.draggable()
+    		</script>
+
+			<div id = "about2" >
+				<p>
+				William Lescaze House and Office<br>
+				211 East 48 Street, New York, NY 10017
+				</p>
+			</div>
+
+			<script>
+			$('#about2')
+   			.draggable()
+    		</script>
+
+			<div id = "about3" >
+				<p>
+				William Lescaze designed his House and Office with the goal<br>
+				of creating a space for a modern lifestyle: easy and efficient<br>
+				cleaning, latest technology, and economy friendly materials.<br>
+				He was also interested in creating his house and office as an<br>
+				“urban oasis,” a place where one can take a break from the<br>
+				busy city, with glass bricks that let in natural light, a rooftop<br>
+				garden, and lots of open space. He achieved this with care-<br>
+				ful design, selection, and arrangement of furniture. Lescaze's<br>
+				monument truly exemplifies the International Style, which ha-<br>
+				s three key principles: the emphasis on volume rather than  <br>
+				mass, the focus on balance rather than symmetry, and the<br>
+				elimination of ornaments.
+				</p>
+			</div>
+
+			<script>
+			$('#about3')
+   			.draggable()
+    		</script>
+
+			<div id = "quote1" >
+				<p>
+				“When we built our house in 1934, glass bricks had not yet<br>
+				been used in this country.Unbelievable but true. I had seen<br>
+				a few of them in Europe, and they seemed to me an excel-<br>
+				lent new material to do a job I was anxious to have done.<br>
+				They added to the amount of daylight without adding to<br>
+				the fuel bill, they ley daylight through yet obscured the un-<br>
+				interesting view of the nine-story apartment house across<br>
+				the street, and they deadened street noises. An enterpris-<br>
+				ing manufacturer agreed to make the first American glass<br>
+				blocks for us in his plant in Illinois. But what an epic battle<br>
+				we had with the Code: it lasted at least three months, back <br>
+				and forth. Three months of agony.” 
+				<br>
+				<br>
+					— William Lescaze, on using glass blocks for his house.
+				</p>
+			</div>
+
+			<script>
+			$('#quote1')
+   			.draggable()
+    		</script>
+
+			<div id = "quote2" >
+				<p>
+				“There was not much point in building a building unl-<br>
+				ess it was thoroughly modern from the point of view of<br>
+				equipment and living qualities, because we want to<br>
+				show our clients what we believe in, what we advo-<br>
+				cate, how the materials will wear, and to show them<br>
+				the job that this particular equipment accomplishes.” 
+				<br>
+				<br>
+				— George Daub, chief construction supervisor to Lescaze.
+				</p>
+			</div>
+
+			<script>
+			$('#quote2')
+   			.draggable()
+    		</script>
+
+			<div id = "quote3" >
+				<p>
+				“...almost no one who has had<br>
+				the opportunity to inspect the<br>
+				Lescaze house from top to bo-<br>
+				ttom goes away with his faith<br>
+				in the Traditional approach un-<br>
+				shaken... it requires no prophet<br>
+				to see the great possibilities from<br>
+				the reclamation of much deteri-<br>
+				orated housing if the slogan ab-<br>
+				out walking to work can be am-<br>
+				ended to read, ‘walk downstairs<br>
+				to work.’” 
+				<br>
+				<br>
+					— Arts and Decoration Magazine.
+				</p>
+			</div>
+
+			<script>
+			$('#quote3')
+   			.draggable()
+    		</script>
+
+			<div id = "null">
+				<img src = "null.png">
+			</div>
+
+		</div> 
+
+	</body>
+
+</html>

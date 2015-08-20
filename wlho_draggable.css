@@ -1,0 +1,199 @@
+html {
+	cursor: move;
+}
+
+.logo {
+	position: relative;
+	width: 100%;
+}
+
+.images {
+	position: relative;
+}
+
+.info {
+	position: relative;
+}
+
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('texgyreadventor-regular-webfont.eot');
+    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-regular-webfont.woff') format('woff'),
+         url('texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+#W {
+	position: absolute;
+	margin-top: 13%;
+	margin-left: 2.7%;
+}
+
+#L {
+	position: absolute;
+	margin-top: 51%;
+	margin-left: 29%;
+}
+
+#H {
+	position: absolute;
+	margin-top: 23%;
+	margin-left: 67.3%;
+}
+
+#O {
+	position: absolute;
+	margin-top: 29.5%;
+	margin-left: 74%;
+}
+
+#carousal {
+	position: absolute;
+	margin-top: 140%;
+	margin-left: 7%;
+	z-index: 0;
+}
+
+#carousal2 {
+	position: absolute;
+	margin-top: 55.7%;
+	margin-left: 32%;
+}
+
+#carousal3{
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 34.5%;
+}
+
+#carousal4{
+	position: absolute;
+	margin-top: 140%;
+	margin-left: 74%;
+}
+
+#carousal5{
+	position: absolute;
+	margin-top: 190.5%;
+	margin-left: 74.5%;
+}
+
+#gif1 {
+	position: absolute;
+	margin-top: 22%;
+	margin-left: 11%;
+}
+
+
+#gif2 {
+	position: absolute;
+	margin-top: 160%;
+	margin-left: 50%;
+}
+
+#zoom {
+	position: absolute;
+	margin-top: 75%;
+	margin-left: 9%;
+}
+
+#about1 {
+	font-family: 'texgyreadventorregular', "HelveticaNeue-Light", sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position: absolute;
+	margin-top: 2.3%;
+	margin-left: 26.6%;
+	border: 1pt solid #6c6c6f; /*grey*/
+	padding-top: 35px;
+	padding-left: 43px;
+	padding-right: 40px;
+	padding-bottom: 35px;
+}
+
+
+#about2 {
+	font-family: 'texgyreadventorregular', "HelveticaNeue-Light", sans-serif;
+	font-size: 14px;
+	color: #1d7496;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position:absolute;
+	margin-top: 48%;
+	margin-left: 66%;
+	border: 1pt solid #1d7496; /*blue*/
+	padding-top: 35px;
+	padding-left: 43px;
+	padding-right: 32px;
+	padding-bottom: 25px;
+}
+
+#about3 {
+	font-family: 'texgyreadventorregular', "HelveticaNeue-Light", sans-serif;
+	color: #1d7496;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position:absolute;
+	margin-top: 116%;
+	margin-left: 32%;
+	border: 1pt solid #1d7496; /*blue*/
+	padding-top: 35px;
+	padding-left: 43px;
+	padding-right: 32px;
+	padding-bottom: 30px;
+}
+
+#quote1 {
+	font-family: 'texgyreadventorregular', "HelveticaNeue-Light", sans-serif;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position: absolute;
+	margin-top: 74%;
+	margin-left: 57%;
+	border: 1pt solid #6c6c6f; /*grey*/
+	padding-top: 35px;
+	padding-left: 43px;
+	padding-right: 43px;
+	padding-bottom: 35px;
+}
+
+#quote2 {
+	font-family: 'texgyreadventorregular', "HelveticaNeue-Light", sans-serif;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position: absolute;
+	margin-top: 192%;
+	margin-left: 7.5%;
+	border: 1pt solid #6c6c6f; /*grey*/
+	padding-top: 35px;
+	padding-left: 43px;
+	padding-right: 40px;
+	padding-bottom: 35px;
+
+}
+
+#quote3 {
+
+	font-family: 'texgyreadventorregular', "HelveticaNeue-Light", sans-serif;
+	color: #1d7496;
+	letter-spacing: 2px;
+	line-height: 19px;
+	position:absolute;
+	margin-top: 211%;
+	margin-left: 50%;
+	border: 1pt solid #1d7496; /*blue*/
+	padding-top: 35px;
+	padding-left: 43px;
+	padding-right: 32px;
+	padding-bottom: 30px;
+}
+
+#null {
+	position: absolute;
+	margin-top: 238%;
+	margin-left:43%;
+}
